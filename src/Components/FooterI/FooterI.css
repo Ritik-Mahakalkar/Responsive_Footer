@@ -1,0 +1,140 @@
+.footerI_main_container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin-top: 20%;
+}
+
+/* Content */
+.content {
+    flex: 1;
+    text-align: center;
+    padding: 50px;
+}
+
+/* Footer Styles */
+footer {
+    background: #222;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-logo {
+    flex: 1;
+    text-align: left;
+}
+
+.footer-logo img {
+    width: 180px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.footer-section h2 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #ffcc00;
+    
+}
+
+.footer-section p, .footer-section ul {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Social Media */
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    display: inline-block;
+    font-size: 20px;
+    color: #bbb;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #ffcc00;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+    opacity: 0.8;
+    text-align: center;
+}
+
+/* Scroll to Top Button */
+.scroll-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background: #ffcc00;
+    color: #222;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.scroll-top:hover {
+    background: #fff;
+    color: #222;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-logo, .footer-section {
+        text-align: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+}
